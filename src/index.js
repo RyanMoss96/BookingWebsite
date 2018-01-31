@@ -1,15 +1,15 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import MuiThemeProvider from 'material-ui/styles/MuiThemeProvider';
-import App from './App';
+import Test from './Test';
  
-const Index = () => (
+const App = () => (
   <MuiThemeProvider>
-    <App />
+    <Test />
   </MuiThemeProvider>
 );
  
 ReactDOM.render(
-  <Index />,
+  <App />,
   document.getElementById('root')
 );

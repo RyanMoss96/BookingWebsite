@@ -13,8 +13,8 @@ export default class Header extends React.Component {
             <div>
                 <AppBar position="static">
                     <Toolbar>
-                        <Typography type="title" color="inherit">
-                            Title
+                        <Typography variant="title" color="inherit">
+                            Appointment Bookings
                         </Typography>
                     </Toolbar>
                 </AppBar>
